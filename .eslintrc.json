@@ -1,0 +1,19 @@
+{
+  "extends": "next/core-web-vitals",
+  "rules": {
+    "comma-dangle": ["error", {
+      "arrays": "always",
+      "objects": "always",
+      "exports": "never",
+      "functions": "never",
+      "imports": "never"
+    }],
+    "eol-last": ["error", "always"],
+    "max-len": ["error", { "code": 125, "comments": 125 }],
+    "no-multiple-empty-lines": ["error", { "max": 1, "maxEOF": 0 }],
+    "no-trailing-spaces": "error",
+    "object-curly-spacing": ["warn", "always"],
+    "quotes": ["error", "single"],
+    "semi": ["error", "never"]
+  }
+}
