@@ -25,6 +25,16 @@ export default function Portfolio() {
             </a>
           </li>
           <li>
+            <a href="https://portfolio-fund-data.vercel.app/" target="_blank">
+              <span className="underline">Fund Portfolio</span>, a work in progress to display funds from TwelveData
+            </a>
+          </li>
+          <li>
+            <a href="https://pet-food-calculator.vercel.app/" target="_blank">
+              <span className="underline">Pet food calculator</span>, calculate the cost of food per oz or g
+            </a>
+          </li>
+          <li>
             <a href="https://portfolio-dashboard-jae.vercel.app/" target="_blank">
               <span className="underline">MakenBank</span>, a sample dashboard
             </a>
