@@ -13,7 +13,12 @@ export default function SkillsLists({ url, }: { url: string | undefined }) {
     !url ? <div>Configuration issue, no backend url found.</div> :
     <Fade fadeOnce={false}>
       <div className="flex flex-col 2xl:w-2/3 w-full mx-auto">
-        { isLoadingSkills || isLoadingSkillTypes ? <div>Loading...</div> :
+        { isLoadingSkills || isLoadingSkillTypes ?
+          (
+            <div className="text-center">
+              <i className="fa-solid fa-circle-notch icon-large text-lime-500 animate-spin"></i>
+            </div>
+          ) :
           (
             skillError || skillTypeError ? <div>{ skillError?.toString() ?? skillTypeError?.toString() }</div> :
             <>
