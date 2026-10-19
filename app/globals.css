@@ -1,6 +1,4 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
 @import "./assets/fontawesome/css/fontawesome.min.css";
 @import "./assets/fontawesome/css/brands.min.css";

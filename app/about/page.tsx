@@ -38,10 +38,8 @@ export default function About() {
           <p>
             After graduating, I acquired professional web experience
             working with C#, ASP.NET MVC, and React.
-            In recent years, most of my time has been spent
-            using Vue.js and an internal design framework,
-            but I&apos;ve also gained valuable experience with
-            Bootstrap and Tailwind CSS.
+            At RBC, most of my time was spent using Vue.js and at CapIntel, React.
+            I gained experience in using an internal design framework from both roles.
           </p>
 
           <h6>My career goals are:</h6>

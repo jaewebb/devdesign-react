@@ -9,22 +9,22 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@webbdeveloper/webb-css": "^1.0.3",
-    "framer-motion": "^10.16.4",
-    "next": "^14.2.23",
-    "react": "^18",
-    "react-dom": "^18",
-    "swr": "^2.3.3"
+    "@tailwindcss/postcss": "^4.3.3",
+    "@webbdeveloper/webb-css": "^1.0.4",
+    "eslint": "^9.39.5",
+    "framer-motion": "^14.3.0",
+    "next": "^16.4.2",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "swr": "^2.5.1"
   },
   "devDependencies": {
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "autoprefixer": "^10.0.1",
-    "eslint": "^8",
-    "eslint-config-next": "14.0.1",
-    "postcss": "^8",
-    "tailwindcss": "^3.3.0",
-    "typescript": "^5"
+    "@types/node": "^26.6.5",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "autoprefixer": "^10.6.1",
+    "postcss": "^8.5.31",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^7.0.2"
   }
 }
