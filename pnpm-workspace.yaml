@@ -1,0 +1,3 @@
+minimumReleaseAgeExclude:
+  - '@webbdeveloper/webb-css@1.0.4'
+  - postcss@8.5.31
