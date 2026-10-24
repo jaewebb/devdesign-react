@@ -7,8 +7,8 @@ import { Oxanium } from 'next/font/google'
 import './globals.css'
 import '@webbdeveloper/webb-css/dist/index.css'
 
-import Header from './components/Header'
-import Footer from './components/Footer'
+import Header from '@/app/components/Header'
+import Footer from '@/app/components/Footer'
 
 const openSans = Open_Sans({
   subsets: ['latin',],
@@ -36,17 +36,14 @@ export default function RootLayout({
       <body
         className={`
           ${openSans.variable} ${oxanium.variable}
-          flex flex-col
-          md:p-8
-          p-4
-          min-h-screen
-          w-full
-          justify-between
+          flex flex-col md:p-8 p-4 min-h-screen w-full justify-between
         `}
       >
-        <Header />
-        <main>
-          {children}
+        <Header blobUrl={`${process.env.BLOB_STORE_URL}/logo.png`} />
+        <main className="flex justify-center">
+          <div className="flex flex-col mx-auto 3k:w-1/2 md:w-2/3 w-full">
+            {children}
+          </div>
         </main>
         <Footer />
       </body>

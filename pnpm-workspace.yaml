@@ -1,0 +1,2 @@
+minimumReleaseAgeExclude:
+  - '@webbdeveloper/webb-css@1.0.6 || 1.0.7'
